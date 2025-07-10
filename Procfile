@@ -1,0 +1,1 @@
+web: gunicorn medbuddy_email_automation.wsgi
