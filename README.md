@@ -48,14 +48,13 @@ pip install -r requirements.txt
 
 ```bash
 DJANGO_SECRET_KEY=your_secret_key
-DJANGO_DEBUG=True
-DJANGO_ALLOWED_HOSTS=localhost,127.0.0.1
-
-ENVIRONMENT=staging  # or production
+DJANGO_ENV=staging  # or production
+HOST=localhost,127.0.0.1 # yourproject.onrender.com
+FRONTEND_URL=yourfrontendurl
 N8N_WEBHOOK_URL_STAGING=https://your-n8n-staging-url.com/webhook
 N8N_WEBHOOK_URL_PRODUCTION=https://your-n8n-production-url.com/webhook
-
 CDN_SERVICE=http://localhost:8000  # Used by test_trigger.py or frontend
+WEBSITE_URL=yourwebsiteurl
 ```
 
 ## Running the Server
