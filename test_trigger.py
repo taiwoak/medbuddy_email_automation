@@ -18,7 +18,7 @@ payload = {
         "course_name": "Software Development",
         "currency": "USD",
         "referral_value": "1000",
-        "referral_tracking_page_url": "https://med-find.vercel.app/app/referrals",
+        "referral_tracking_page_url": "https://medbuddyacademy.com/app/tracking",
         "recipient": "dannyjanx@gmail.com"
     },
     "template": "medbuddy_referral_followup"
